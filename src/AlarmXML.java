@@ -1,15 +1,17 @@
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
 import java.util.List;
 
 public class AlarmXML {
-    @XmlElement(name = "Record")
+   @XmlElement(name = "Record")
     private List<AlarmAttribute> mAttributes;
 
-    public List<AlarmAttribute> getAttributes() {
+    @XmlTransient
+    public List<AlarmAttribute> getRecord() {
         return mAttributes;
     }
 
-    public void setAttributes(List<AlarmAttribute> Attributes) {
+    public void setRecord(List<AlarmAttribute> Attributes) {
         this.mAttributes = Attributes;
     }
 }
