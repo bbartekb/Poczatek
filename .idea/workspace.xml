@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3decc3af-8971-40ab-9335-af46984d75ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hello/ChceckUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hello/MyRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hello/PomocniczyMain$1ChceckUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hello/PomocniczyMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChceckUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PomocniczyMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello/AlarmXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello/AlarmXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello/AlarmsXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello/AlarmsXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello/ReaderCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello/ReaderCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlarmXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlarmXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlarmsXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlarmsXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReaderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReaderCSV.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +47,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="roboczy" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="roboczy" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1949" />
@@ -87,14 +126,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PomocniczyMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Hello" />
     </configuration>
+    <configuration name="PomocniczyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PomocniczyMain" />
+      <module name="Hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PomocniczyMain" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PomocniczyMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PomocniczyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -160,16 +210,15 @@
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test123.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

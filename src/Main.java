@@ -25,12 +25,12 @@ public class Main {
 
         JAXBContext context = JAXBContext.newInstance(AlarmsXML.class);
         Unmarshaller um = context.createUnmarshaller();
-        AlarmsXML alarms = (AlarmsXML) um.unmarshal(new FileReader("C:\\mojkatalog\\test123\\alarmy_gotowe.xml"));
+        AlarmsXML alarms = (AlarmsXML) um.unmarshal(new FileReader("C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe.xml"));
 
         List<List<String>> listXML =new ArrayList<>();
         for (AlarmXML alarm : alarms.getAlarms()) {
             List<String> temporary = new ArrayList<>();
-            for (AlarmAttribute attribute : alarm.getAttributes()) {
+            for (AlarmAttribute attribute : alarm.getRecord()) {
                 temporary.add("\""+attribute.getValue() + "\"");
             }
             listXML.add(temporary);
