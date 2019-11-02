@@ -5,7 +5,6 @@ import javax.xml.bind.annotation.XmlAttribute;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class AlarmAttribute{
 
-
     @XmlAttribute(name = "name")
     private String mName;
 

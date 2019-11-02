@@ -18,7 +18,7 @@ public class AlarmBuilder {
         private Integer alertCount;
         private String moTTInfo;
         private Date eventTime ;
-        SimpleDateFormat formatter = new SimpleDateFormat("\"dd-MM-yyyy HH:mm:ss\"");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 
 
 
@@ -58,6 +58,8 @@ public class AlarmBuilder {
         }
 
 
+
+
         public AlarmBuilder build() {
             if(notificationIdentifier.isEmpty()){
                 throw new IllegalStateException("Notification Identifier cannot be empty");
@@ -78,5 +80,9 @@ public class AlarmBuilder {
             alarm.eventTime = this.eventTime;
             return alarm;
         }
+    }
+
+    public String getNotificationIdentifier(){
+        return this.notificationIdentifier;
     }
 }
